@@ -14,13 +14,14 @@ class midserver (
       ensure => present,
     }
 
-    package { 'bunzip':
-      ensure => present,
-    }
+    #package { 'bunzip':
+    #  ensure => present,
+    #}
 
     Archive {
       provider => 'wget',
-      require  => Package['wget', 'bunzip'],
+      require  => Package['wget'],
+      #require  => Package['wget', 'bunzip'],
     }
   }
 
@@ -36,5 +37,6 @@ class midserver (
     extract_path => '/servicenow',
     creates      => '/servicenow/midserver',
   }
+
 
 }
