@@ -2,11 +2,14 @@
   "name": "simonanderson-midserver",
   "version": "0.1.0",
   "author": "simonanderson",
-  "summary": "",
+  "summary": "Module for installing ServiceNow midserver",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "n/a",
   "dependencies": [
-
+    {
+      "name": "puppet/archive",
+      "version_requirement": ">= 4.13.1"
+    }
   ],
   "operatingsystem_support": [
     {
