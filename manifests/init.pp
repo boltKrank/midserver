@@ -29,6 +29,11 @@ class midserver (
     creates      => $midserver_installer,
     source       => $installer_url,
     require      => File['/servicenow/midserver'],
+    notify       => Exec['/servicenow/midserver/agent/start.sh'],
   }
 
+  #exec '/servicenow/midserver/agent/start.sh'
+  exec { '/servicenow/midserver/agent/start.sh':
+    refreshonly => true,
+  }
 }
