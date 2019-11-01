@@ -1,1 +1,5 @@
 ---
+midserver::config::servicenow_url: "https://servicenow.local.vm"
+midserver::config::mid_username: "puppet"
+midserver::config::mid_password: "puppetlabs"
+midserver::config::midserver_name: "midserver"
