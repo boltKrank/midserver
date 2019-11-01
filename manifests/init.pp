@@ -13,7 +13,8 @@ class midserver {
 
   # unzip package (pre-req for archive module on posix)
   package { 'unzip':
-    ensure => 'present'
+    ensure => 'present',
+    before => Archive['/servicenow/midserver/midserver.zip'],
   }
 
   #Download and extract package (mod 'puppet-archive', '4.3.0')
