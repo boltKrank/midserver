@@ -23,18 +23,18 @@
 
     <!-- Tells the MID server where to contact its associated ServiceNow instance.  Edit
          this value to provide the URL of your organization's ServiceNow instance. -->
-    <parameter name="url" value="https://YOUR_INSTANCE.service-now.com/"/>
+    <parameter name="url" value="<%= $servicenow_url %>"/>
 
     <!-- If your ServiceNow instance has authentication enabled (the normal case), set
          these parameters to define the user name and password the MID server will use
          to log into the instance.  -->
-    <parameter name="mid.instance.username" value="YOUR_INSTANCE_USER_NAME_HERE"/>
-    <parameter secure="true" name="mid.instance.password" value="YOUR_INSTANCE_PASSWORD_HERE"/>
+    <parameter name="mid.instance.username" value="<%= $mid_username %>"/>
+    <parameter secure="true" name="mid.instance.password" value="<%= $mid_password %>"/>
 
     <!-- Defines the name by which your MID server is known on the ServiceNow instance.
          Edit this value to provide the name you want, or leave it blank and the MID server
          will make up a name. -->
-    <parameter name="name" value="YOUR_MIDSERVER_NAME_GOES_HERE"/>
+    <parameter name="name" value="<%= midserver_name %>"/>
 
     <!--
     ***********************************************************************************
