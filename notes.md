@@ -16,10 +16,15 @@ https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-s
 
 https://community.servicenow.com/community?id=community_question&sys_id=ca224b2ddb98dbc01dcaf3231f961948
 https://docs.servicenow.com/bundle/newyork-application-development/page/integrate/custom-web-services/reference/r_ScriptedRESTServiceScriptExamples.html
+
 https://docs.servicenow.com/bundle/newyork-application-development/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html
+
 https://docs.servicenow.com/bundle/newyork-application-development/page/integrate/custom-web-services/concept/c_ScriptedRESTAPIExamples.html
+
 https://developer.servicenow.com/app.do#!/document/content/app_store_doc_scripted_rest_jakarta_r_ScriptedRESTServiceScriptExamples?v=newyork
+
 https://community.servicenow.com/community?id=community_question&sys_id=e822cfe9db98dbc01dcaf3231f961989
+
 https://helpcentre.buttonwood.net/hc/en-us/articles/360000338036-ServiceNow-Example-How-to-Create-REST-API-Requests
 
 Outbound message:
