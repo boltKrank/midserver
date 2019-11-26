@@ -22,3 +22,11 @@ https://developer.servicenow.com/app.do#!/document/content/app_store_doc_scripte
 https://community.servicenow.com/community?id=community_question&sys_id=e822cfe9db98dbc01dcaf3231f961989
 https://helpcentre.buttonwood.net/hc/en-us/articles/360000338036-ServiceNow-Example-How-to-Create-REST-API-Requests
 
+Outbound message:
+https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_newyork_outbound_rest_integrations/app_store_learnv2_rest_newyork_creating_an_outbound_rest_message?v=newyork
+
+https://developer.servicenow.com/app.do#!/training/article/app_store_learnv2_rest_newyork_outbound_rest_integrations/app_store_learnv2_rest_newyork_outbound_rest_messages?v=newyork
+
+HTTP Header:
+https://developer.servicenow.com/app.do#!/document/content/app_store_doc_outbound_rest_newyork_t_DefineAnHTTPHeader?v=newyork
+
