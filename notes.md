@@ -12,6 +12,12 @@ https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-s
 6. [Validate mid-server](https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-server/task/t_ValidateAMIDServer.html#t_ValidateAMIDServer)
 7. [Configure mid-server parameters](https://docs.servicenow.com/bundle/madrid-servicenow-platform/page/product/mid-server/reference/mid-server-parameters.html#mid-server-parameters)
 
+## Download link:
+
+https://install.service-now.com/glide/distribution/builds/package/mid/2019/10/03/mid.madrid-12-18-2018__patch7a-10-01-2019_10-03-2019_1530.linux.x86-64.zip
+
+
+
 ## REST message guide:
 
 https://community.servicenow.com/community?id=community_question&sys_id=ca224b2ddb98dbc01dcaf3231f961948
